@@ -1,0 +1,83 @@
+.kanji {
+    border: 2px solid orangered;
+    font-size: 24pt;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.jsgif {
+    font-size: 0;
+}
+
+.kun-yomi:before {
+    content: "▷"
+}
+.on-yomi:before {
+    content: "▶"
+}
+
+.word>div:nth-child(1) {
+    width: 20%;
+    max-width: 160px;
+    min-width: fit-content;
+    margin-right: 16px;
+}
+
+.historic:before {
+    content: "歴";
+    font-size: 11px;
+    box-sizing: border-box;
+    border: 1px solid orangered;
+    border-radius: 4px;
+    width: 17px;
+    height: 17px;
+    margin-left: -29px;
+    margin-right: 12px;
+    display: inline-block;
+    text-align: center;
+}
+
+.special:before {
+    content: "特";
+    font-size: 11px;
+    box-sizing: border-box;
+    border: 1px solid orangered;
+    border-radius: 4px;
+    width: 17px;
+    height: 17px;
+    margin-left: -29px;
+    margin-right: 12px;
+    display: inline-block;
+    text-align: center;
+}
+
+.uncommon:before {
+    content: "♢";
+    font-size: 16px;
+    box-sizing: border-box;
+    width: 17px;
+    height: 17px;
+    margin-left: -29px;
+    margin-right: 12px;
+    display: inline-block;
+    text-align: center;
+}
+
+.stage1 {
+    color: orangered;
+}
+
+.id-gutter {
+    flex: none;
+    min-width: 35px;
+}
+
+.kanji-stroke {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
